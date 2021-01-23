@@ -1,0 +1,14 @@
+syntax = "proto3";
+package order;
+
+//used in request reply setup
+message ServiceDiscovery {
+    string orderserviceuri = 1;
+}
+
+message GetSystemTime {
+    string systemtime = 1;
+    string systemdate = 2;
+    string username = 3;
+    string serverip = 4;
+}

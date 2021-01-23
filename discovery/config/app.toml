@@ -1,0 +1,14 @@
+# TOML config file.
+[discovery]
+orderservice = "localhost:50051"
+
+[server]
+timeoutvalue=34
+serverip="127.0.0.1"
+issecure=true
+
+[systeminfo]
+systemtime="18:40"
+systemdate="Sat 22 Dec 2021"
+username="pi"
+serverip="192.168.0.108"
